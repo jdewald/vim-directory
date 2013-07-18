@@ -34,7 +34,7 @@ set scrolloff=3
 set backspace=start,eol
 
 " Map <CTRL>-B to run PHP parser check
-noremap <C-B> :!php -l %<CR>
+" noremap <C-B> :!php -l %<CR>
 
 " The completion dictionary is provided by Rasmus:
 " http://lerdorf.com/funclist.txt
