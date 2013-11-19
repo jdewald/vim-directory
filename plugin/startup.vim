@@ -4,6 +4,11 @@ set hlsearch
 " Use incremental searching
 set incsearch
 
+"if has('mouse')
+"  set mouse=a
+"endif
+
+
 " Set standard setting for PEAR coding standards
 set tabstop=4
 set shiftwidth=4
