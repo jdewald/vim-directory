@@ -17,3 +17,6 @@ augroup END
 " From: http://linuxjavaprogrammer.blogspot.com/2007/08/making-most-of-vim-ant-and-javac.html
 set makeprg=ant
 set efm=\ %#[javac]\ %#%f:%l:%c:%*\\d:%*\\d:\ %t%[%^:]%#:%m,\%A\ %#[javac]\ %f:%l:\ %m,%-Z\ %#[javac]\ %p^,%-C%.%#
+syntax enable
+set background=dark
+colorscheme solarized

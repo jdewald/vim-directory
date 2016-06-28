@@ -1,8 +1,8 @@
+set nocompatible
 let g:JavaImpPaths = $HOME . "/Development/svn/gumiyo/DEVELOP/src" 
 "let g:JavaImpDataDir = "$HOME" 
 execute pathogen#infect()
 set ruler
-set expandtab
 " Append modeline after last line in buffer.
 " Use substitute() instead of printf() to handle '%%s' modeline in LaTeX
 " files.

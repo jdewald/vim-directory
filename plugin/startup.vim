@@ -13,8 +13,8 @@ set incsearch
 set tabstop=4
 set shiftwidth=4
 
-" Auto expand tabs to spaces
-set expandtab
+" Don't Auto expand tabs to spaces
+set noexpandtab
 
 " Auto indent after a {
 set autoindent
